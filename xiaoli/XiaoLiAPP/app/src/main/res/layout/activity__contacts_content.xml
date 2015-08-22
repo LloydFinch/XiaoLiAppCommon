@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.google.xiaoliapp.app.Profile_ContactsActivity"
+        >
+
+   <!-- 联系人分组-->
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#fff"
+
+            >
+        <ImageView
+                android:id="@+id/contacts_group"
+                android:src="@mipmap/contacts_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Animation.Translucent"
+                android:layout_centerVertical="true"
+                />
+        <TextView
+                android:id="@+id/contacts_group_text"
+                style="@style/MyTextView"
+                android:layout_toRightOf="@id/contacts_group"
+                android:text="联系人分组"
+                />
+        <Button
+                android:id="@+id/contacts_group_button"
+                style="@style/MySmallButton"
+                />
+    </RelativeLayout>
+
+    <!--更新通讯录-->
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#fff"
+
+            >
+        <ImageView
+                android:id="@+id/contacts_update"
+                android:src="@mipmap/contacts_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Animation.Translucent"
+                android:layout_centerVertical="true"
+                />
+        <TextView
+                android:id="@+id/discovery05_text"
+                style="@style/MyTextView"
+                android:layout_toRightOf="@id/contacts_update"
+                android:text="更新通信录"
+                />
+
+        <Button
+                android:id="@+id/discovery05_button"
+                style="@style/MySmallButton"
+                />
+    </RelativeLayout>
+
+    <!--备份通讯录-->
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#fff"
+            >
+        <ImageView
+                android:id="@+id/contacts_backup"
+                android:src="@mipmap/contacts_backup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@android:style/Animation.Translucent"
+                android:layout_centerVertical="true"
+                />
+        <TextView
+                android:id="@+id/contacts_backup_text"
+                style="@style/MyTextView"
+                android:layout_toRightOf="@id/contacts_backup"
+                android:text="通讯录备份"
+                />
+
+        <Button
+                android:id="@+id/contacts_backup_button"
+                style="@style/MySmallButton"
+                />
+    </RelativeLayout>
+
+    <!-- 通讯录恢复-->
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#fff"
+            >
+        <ImageView
+                android:id="@+id/contacts_resume"
+                android:src="@mipmap/contacts_resume"
+                android:theme="@android:style/Animation.Translucent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                />
+        <TextView
+                android:id="@+id/contacts_resume_text"
+                style="@style/MyTextView"
+                android:layout_toRightOf="@id/contacts_resume"
+                android:text="通讯录恢复"
+                />
+        <Button
+                android:id="@+id/contacts_resume_button"
+                style="@style/MySmallButton"
+                />
+    </RelativeLayout>
+
+    
+</LinearLayout>

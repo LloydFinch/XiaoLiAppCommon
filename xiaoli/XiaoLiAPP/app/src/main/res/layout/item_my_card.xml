@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                >
+
+    <ImageView
+            android:id="@+id/item_my_card_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:src="@mipmap/mycard"
+            android:background="@drawable/mycard_image_shape"
+            />
+    <TextView
+            android:id="@+id/item_my_card_text_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="晓礼网创意婚庆礼品优惠券"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="5dp"
+            android:layout_toRightOf="@id/item_my_card_imageView"
+            />
+    <TextView
+            android:id="@+id/item_my_card_text_rule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* 卡券规则xxxxxxxxx"
+            android:textSize="10sp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="5dp"
+            android:layout_alignLeft="@id/item_my_card_text_card"
+            android:layout_toRightOf="@id/item_my_card_imageView"
+            android:layout_below="@id/item_my_card_text_card"
+            />
+    <TextView
+            android:id="@+id/item_my_card_text_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* 使用限制xxxxxxxxx"
+            android:textSize="10sp"
+
+            android:paddingLeft="5dp"
+            android:layout_alignLeft="@id/item_my_card_text_rule"
+            android:layout_toRightOf="@id/item_my_card_imageView"
+            android:layout_below="@id/item_my_card_text_rule"
+            />
+
+    <TextView
+            android:id="@+id/item_my_card_text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="* 2015-06-12至2015-06-18"
+            android:textSize="10sp"
+
+            android:paddingLeft="5dp"
+            android:layout_alignLeft="@id/item_my_card_text_limit"
+            android:layout_toRightOf="@id/item_my_card_imageView"
+            android:layout_below="@id/item_my_card_text_limit"
+            />
+    <Button
+            android:id="@+id/item_my_card_button"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="送出"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:background="@drawable/mycard_shape"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@id/item_my_card_text_date"
+            android:layout_below="@id/item_my_card_text_date"
+            android:layout_alignBaseline="@id/item_my_card_imageView"
+
+            />
+
+</RelativeLayout>

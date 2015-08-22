@@ -1,0 +1,286 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.google.xiaoliapp.app.Guide_Content_DetailActivity"
+		>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			>
+
+		<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="2dp"
+				>
+
+			<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:drawableLeft="@mipmap/photo"
+					android:text="阿妹"
+					android:background="#00000000"
+					android:textColor="#ff1a77ff"
+					android:textStyle="bold"
+					android:layout_alignParentLeft="true"
+					/>
+
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="2015-07-18"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					/>
+
+		</RelativeLayout>
+
+		<View
+				android:layout_height="1px"
+				android:background="#000"
+				android:layout_width="fill_parent"
+				>
+		</View>
+
+		<ImageView
+				android:layout_marginTop="2dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@mipmap/guide_content_title_image"
+				android:background="@drawable/mycard_image_shape"
+				android:paddingBottom="5dp"
+				/>
+
+		<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				>
+
+			<Button
+					android:id="@+id/btn_content_detail"
+					android:layout_width="wrap_content"
+					android:layout_height="30dp"
+					android:text="查看详情"
+					android:textColor="#f00"
+					android:layout_alignParentRight="true"
+					android:background="@drawable/content_detail_shape"
+					/>
+		</RelativeLayout>
+
+		<TextView
+				android:layout_marginTop="10dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textStyle="normal"
+				android:text="薄荷茶并非解渴的饮料那么简单，在马拉喀什的炎炎街头，这种饮料还足以让人们精神抖擞。
+               调配和享用薄荷茶是摩洛哥文化的重要组成部分，到摩洛哥旅游时一定要感受一下"
+				/>
+
+		<LinearLayout
+				android:layout_marginTop="10dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="30dp"
+				android:layout_marginRight="30dp"
+				android:orientation="horizontal"
+				>
+
+			<Button
+					android:id="@+id/btn_content_zan"
+					android:layout_width="0dp"
+					android:layout_weight="1"
+					android:layout_height="wrap_content"
+					android:drawableTop="@mipmap/share"
+					android:text="点赞"
+					android:background="#00000000"
+					/>
+
+			<Button
+					android:id="@+id/btn_content_share"
+					android:layout_width="0dp"
+					android:layout_weight="1"
+					android:layout_height="wrap_content"
+					android:drawableTop="@mipmap/share"
+					android:text="分享"
+					android:background="#00000000"
+
+					/>
+
+			<Button
+					android:id="@+id/btn_content_collect"
+					android:layout_width="0dp"
+					android:layout_weight="1"
+					android:layout_height="wrap_content"
+					android:drawableTop="@mipmap/collect"
+					android:text="收藏"
+					android:background="#00000000"
+
+					/>
+		</LinearLayout>
+
+		<LinearLayout
+				android:layout_marginTop="10dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="30dp"
+				android:layout_marginRight="30dp"
+				android:orientation="horizontal"
+				>
+
+			<TextView
+					android:id="@+id/btn_content_zan_text"
+					android:layout_width="0dp"
+					android:layout_weight="1"
+					android:layout_height="wrap_content"
+					android:text="823人喜欢"
+					android:layout_below="@id/btn_content_zan"
+					/>
+
+			<TextView
+					android:id="@+id/btn_content_share_text"
+					android:layout_width="0dp"
+					android:layout_weight="1"
+					android:layout_height="wrap_content"
+					android:text="1823次分享"
+					android:layout_below="@id/btn_content_share"
+					/>
+
+			<TextView
+					android:id="@+id/btn_content_collect_text"
+					android:layout_width="0dp"
+					android:layout_weight="1"
+					android:layout_height="wrap_content"
+					android:text="1823个评论"
+					android:layout_below="@id/btn_content_collect"
+					/>
+		</LinearLayout>
+
+		<View
+				android:layout_marginTop="10dp"
+				android:layout_height="1px"
+				android:background="#000"
+				android:layout_width="fill_parent"
+				>
+		</View>
+
+		<RelativeLayout
+				android:layout_marginTop="30dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				>
+
+			<TextView
+					android:id="@+id/newly_comment_title"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="最新评论"
+					android:textStyle="bold"
+					android:textSize="15sp"
+					android:paddingBottom="5dp"
+					android:layout_alignParentLeft="true"
+					/>
+
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="(100)"
+					android:textStyle="bold"
+					android:textSize="15sp"
+					android:layout_toRightOf="@id/newly_comment_title"
+					/>
+
+			<ImageView
+					android:id="@+id/content_icon"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_centerVertical="true"
+					android:src="@mipmap/head"
+					android:layout_below="@id/newly_comment_title"
+					android:layout_alignParentLeft="true"
+					/>
+
+			<TextView
+					android:layout_marginLeft="5dp"
+					android:id="@+id/grade_person_nick"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="周末阳光奶茶"
+					android:textColor="#ff1a77ff"
+					android:layout_below="@id/newly_comment_title"
+
+					android:layout_toRightOf="@id/content_icon"
+					/>
+
+			<TextView
+					android:id="@+id/content_comment"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:singleLine="true"
+					android:ellipsize="end"
+					android:text="从小到大喝牛奶就是不长个"
+					android:layout_below="@id/grade_person_nick"
+					android:layout_alignLeft="@id/grade_person_nick"
+					/>
+
+			<TextView
+					android:id="@+id/content_date"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:text="2015/8/15"
+					android:layout_alignBottom="@id/grade_person_nick"
+					/>
+			<!-- 回复这里要设置点击事件-->
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignRight="@id/content_date"
+					android:text="回复"
+					android:clickable="true"
+					android:layout_below="@id/content_date"
+					/>
+
+		</RelativeLayout>
+	</LinearLayout>
+
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+			android:layout_centerVertical="true"
+			>
+
+		<EditText
+				android:id="@+id/content_edit_text"
+				android:layout_width="0dp"
+				android:layout_weight="4"
+				android:layout_height="wrap_content"
+				android:background="@drawable/shape_radius_back_edittext"
+				android:paddingBottom="5dp"
+				android:hint="发表您的评论"
+				android:textSize="15sp"
+				/>
+
+		<Button
+				android:id="@+id/btn_content"
+				android:layout_marginLeft="5dp"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="30dp"
+				android:background="@drawable/mycard_shape"
+				android:text="发 布"
+				android:textColor="#fff"
+				/>
+	</LinearLayout>
+
+
+</RelativeLayout>

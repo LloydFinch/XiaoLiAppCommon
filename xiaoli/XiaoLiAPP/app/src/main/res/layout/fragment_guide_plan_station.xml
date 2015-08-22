@@ -17,23 +17,16 @@
 			android:gravity="center_vertical"
 			>
 
-		<com.xiaoliapp.app.myview.MyHorScrollView
-				android:id="@+id/fragment_guide_inner_scroll"
+		<android.support.design.widget.TabLayout
+				android:id="@+id/fragment_guide_inner_tab_layout"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
 				android:layout_weight="1"
-				android:scrollbars="none"
-				>
-
-			<android.support.design.widget.TabLayout
-					android:id="@+id/fragment_guide_inner_tab_layout"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					app:tabIndicatorColor="#ff988eff"
-					app:tabIndicatorHeight="3dp"
-					android:background="#0000"
-					/>
-		</com.xiaoliapp.app.myview.MyHorScrollView>
+				android:layout_height="wrap_content"
+				app:tabIndicatorColor="#ff988eff"
+				app:tabIndicatorHeight="3dp"
+				android:background="#0000"
+				app:tabMode="scrollable"
+				/>
 
 		<TextView
 				android:layout_width="wrap_content"

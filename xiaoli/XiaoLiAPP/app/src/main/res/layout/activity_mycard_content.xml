@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.google.xiaoliapp.app.Guide_MyCardActivity">
+
+    <RelativeLayout
+            android:id="@+id/common_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffdd3049"
+            >
+        <Button
+                android:id="@+id/common_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/back_arrow"
+                />
+        <!-- 应该用TabLayout-->
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                >
+            <Button
+                    android:id="@+id/validcard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="#00000000"
+                    android:textColor="#fff"
+                    android:text="可用卡券"
+                    />
+            <Button
+                    android:id="@+id/usedcard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#00000000"
+                    android:textColor="#fff"
+                    android:text="历史卡券"
+                    />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+    <ListView
+            android:id="@+id/my_card_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/common_head"
+            ></ListView>
+
+    <RadioGroup
+            android:id="@+id/base_bottom_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <RadioButton
+                android:id="@+id/bottom_tab_relation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_bottom_tab_relation"
+                android:text="关系管理"
+                android:textColor="@color/color_selector"
+                android:gravity="center"
+                android:button="@null"
+                />
+
+        <RadioButton
+                android:id="@+id/bottom_tab_guide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_bottom_tab_guide"
+                android:text="情礼攻略"
+                android:textColor="@color/color_selector"
+                android:gravity="center"
+                android:button="@null"
+                />
+
+        <RadioButton
+                android:id="@+id/bottom_tab_discover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_bottom_tab_discover"
+                android:text="发现"
+                android:textColor="@color/color_selector"
+                android:gravity="center"
+                android:button="@null"
+                />
+
+        <RadioButton
+                android:id="@+id/bottom_tab_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_bottom_tab_profile"
+                android:text="我的"
+                android:textColor="@color/color_selector"
+                android:gravity="center"
+                android:button="@null"
+                />
+    </RadioGroup>
+
+</RelativeLayout>

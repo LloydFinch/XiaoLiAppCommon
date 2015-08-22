@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+<RelativeLayout
+                android:id="@+id/common_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+        >
+    <ImageView
+            android:id="@+id/common_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/myself01"
+            />
+    <TextView
+            android:id="@+id/common_text"
+            style="@style/MyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/common_image"
+            android:text="打分记录"
+            />
+    <Button
+            android:id="@+id/common_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&gt;"
+            android:textSize="20sp"
+            android:backgroundTintMode="screen"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+</RelativeLayout>
+</LinearLayout>
+
+

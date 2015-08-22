@@ -10,14 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.xiaoliapp.app.R;
 import com.xiaoliapp.app.adapter.CommonPagerAdapter;
-import com.xiaoliapp.app.myview.MyHorScrollView;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class GuidePlanStationFragment extends Fragment implements TabLayout.OnTabSelectedListener {
 
-	private MyHorScrollView horizontalScrollView;
 	private TabLayout tabLayout;
 	private ViewPager viewPager;
 
@@ -36,26 +34,15 @@ public class GuidePlanStationFragment extends Fragment implements TabLayout.OnTa
 		viewPager = (ViewPager) view.findViewById(R.id.fragment_guide_inner_pager);
 		viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
-		horizontalScrollView = (MyHorScrollView) view.findViewById(R.id.fragment_guide_inner_scroll);
-
 		initData();
 		return view;
 	}
 
 
 	//实现联动
-	int prePosition = 0;
 
 	public void onTabSelected(TabLayout.Tab tab) {
-		int position = tab.getPosition();
-		viewPager.setCurrentItem(position);
-		if (prePosition < position) {
-			horizontalScrollView.smoothScrollBy(100, 0);
-		} else {
-			horizontalScrollView.smoothScrollBy(-100, 0);
-		}
-		prePosition = position;
-
+		viewPager.setCurrentItem(tab.getPosition());
 	}
 
 	public void onTabUnselected(TabLayout.Tab tab) {

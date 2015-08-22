@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.google.xiaoliapp.app.Guide_ImpressActivity">
+
+   <RadioGroup
+           android:id="@+id/impress_radio_group"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+      <RadioButton
+              android:id="@+id/impress_radio_button_impress"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:button="@null"
+              android:text="印象(9)"
+              android:gravity="center"
+              android:textColor="@color/color_selector"
+              />
+       <RadioButton
+               android:id="@+id/impress_radio_button_score"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:button="@null"
+               android:gravity="center"
+               android:text="打分(36)"
+               android:textColor="@color/color_selector"
+               />
+   </RadioGroup>
+
+    <LinearLayout
+            android:id="@+id/impress_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/impress_radio_group"
+            android:padding="5dp"
+            >
+        <Button
+                android:id="@+id/impress_button_look"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="邀请TA来看看"
+                android:textColor="#fff"
+                android:background="@drawable/shape_radius_button_login"
+                />
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/impress_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/impress_layout"
+            ></ListView>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            >
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="写下你对TA的评论"
+                android:padding="5dp"
+                android:background="@drawable/shape_radius_back_edittext"
+
+                />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评 论"
+                android:textColor="#fff"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/shape_radius_button_login"
+                />
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -156,6 +156,40 @@
 				android:theme="@style/Theme.AppCompat.Light.Dialog"
 				>
 		</activity>
+
+		<activity
+				android:name=".activity.ForgetPSWActivity"
+				>
+		</activity>
+		<activity
+				android:name=".activity.TopicCareActivity"
+				>
+		</activity>
+
+		<activity
+				android:name=".activity.ImpressActivity"
+				>
+		</activity>
+		<activity
+				android:name=".activity.MyCardActivity"
+				>
+		</activity>
+
+		<activity
+				android:name=".activity.PersonInfoActivity"
+				>
+		</activity>
+
+		<activity
+				android:name=".activity.GiftsWarnActivity"
+				>
+		</activity>
+		<activity
+				android:name=".activity.GuideDetailActivity"
+				>
+		</activity>
+		<activity android:name=".activity.ContactsActivity">
+		</activity>
 	</application>
 
 </manifest>
