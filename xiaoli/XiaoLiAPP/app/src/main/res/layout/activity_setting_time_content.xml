@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical"
+              android:background="#e3e3e3"
+                tools:context="com.xiaoliapp.app.activity.SettingTimeActivity">
+
+    <LinearLayout
+            android:background="#e3e3e3"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:background="#e3e3e3"
+                android:layout_gravity="center"
+                android:text="日期"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <EditText
+                android:layout_gravity="center"
+                android:background="@drawable/shape_radius_back_edittext"
+                android:id="@+id/setting_time_data"
+                android:hint="日期格式:年/月/日"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+            android:background="#e3e3e3"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:background="#e3e3e3"
+                android:layout_gravity="center"
+                android:text="日期"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <EditText
+                android:layout_gravity="center"
+                android:background="@drawable/shape_radius_back_edittext"
+                android:id="@+id/setting_time_time"
+                android:hint="时间格式:xx:xx:xx"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+            android:background="#e3e3e3"
+            android:layout_margin="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="确定"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shape_setting_time_btn"
+                android:id="@+id/setting_time_btn_ok"
+                android:layout_marginLeft="23dp"
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:background="#e3e3e3"
+                android:layout_width="15dp"
+
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:background="@drawable/shape_setting_time_btn"
+                android:text="取消"
+                android:layout_marginRight="10dp"
+                android:id="@+id/setting_time_btn_cancle"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

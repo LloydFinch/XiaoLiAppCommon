@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#f1f1f1"
+              tools:context="com.xiaoliapp.app.fragments.GuideHistorycardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <include android:id="@+id/item_guide_historycard_item_1" layout="@layout/item_guide_historycard"/>
+    <include android:id="@+id/item_guide_historycard_item_2" layout="@layout/item_guide_historycard"/>
+    <include android:id="@+id/item_guide_historycard_item_3" layout="@layout/item_guide_historycard"/>
+    <include android:id="@+id/item_guide_historycard_item_4" layout="@layout/item_guide_historycard"/>
+    <include android:id="@+id/item_guide_historycard_item_5" layout="@layout/item_guide_historycard"/>
+    <include android:id="@+id/item_guide_historycard_item_6" layout="@layout/item_guide_historycard"/>
+
+</LinearLayout>

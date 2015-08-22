@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#ffffff"
+              tools:context="com.xiaoliapp.app.fragments.ProfileNetrelationFragment"
+		>
+
+	<!-- TODO: Update blank fragment layout -->
+	<LinearLayout
+			android:background="#f4f4f6"
+			android:layout_width="match_parent"
+			android:layout_height="10dp"
+			>
+
+	</LinearLayout>
+
+	<TextView
+
+			android:text="最亲密排名"
+			android:background="#ffffff"
+			android:textColor="#c84f68"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			/>
+
+	<GridView
+			android:background="#ffffff"
+			android:numColumns="4"
+			android:id="@+id/profile_netrelation_mostrelation"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+	</GridView>
+
+	<LinearLayout
+			android:background="#f4f4f6"
+			android:layout_width="match_parent"
+			android:layout_height="20dp"
+			>
+
+	</LinearLayout>
+
+	<TextView
+			android:text="志趣相投排名"
+			android:background="#ffffff"
+			android:textColor="#c84f68"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			/>
+
+	<GridView
+			android:background="#ffffff"
+			android:numColumns="4"
+			android:id="@+id/profile_netrelation_mostintrsting"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+	</GridView>
+
+	<LinearLayout
+			android:background="#f4f4f6"
+			android:layout_width="match_parent"
+			android:layout_height="20dp"
+			>
+
+	</LinearLayout>
+
+	<TextView
+			android:text="可能认识"
+			android:background="#ffffff"
+			android:textColor="#c84f68"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			/>
+
+	<GridView
+			android:background="#ffffff"
+			android:numColumns="4"
+			android:id="@+id/profile_netrelation_mostknown"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+	</GridView>
+
+</LinearLayout>

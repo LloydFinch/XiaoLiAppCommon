@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="#ffffff"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/head"
+            android:id="@+id/guide_impress_my_listview_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="阿妹"
+            android:layout_toRightOf="@id/guide_impress_my_listview_item_image"
+            android:id="@+id/guide_impress_my_listview_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <Button
+
+            android:textSize="10sp"
+            android:background="@drawable/shape_impress_btn"
+            android:layout_margin="5dp"
+            android:text="印象关键词"
+            android:layout_below="@id/guide_impress_my_listview_text_name"
+            android:layout_toRightOf="@id/guide_impress_my_listview_item_image"
+            android:id="@+id/guide_impress_my_listview_btnkeyimp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:background="@drawable/shape_impress_btn"
+            android:textSize="10sp"
+            android:layout_margin="5dp"
+                android:text="印象词"
+                android:layout_below="@id/guide_impress_my_listview_text_name"
+                android:layout_toRightOf="@id/guide_impress_my_listview_btnkeyimp1"
+                android:id="@+id/guide_impress_my_listview_btnimp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    <TextView
+            android:text="14"
+            android:gravity="center"
+            android:drawableLeft="@mipmap/grade"
+            android:layout_below="@id/guide_impress_my_listview_btnimp1"
+            android:layout_toRightOf="@id/guide_impress_my_listview_item_image"
+            android:id="@+id/guide_impress_my_listview_imgbtn_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="23"
+            android:gravity="center"
+            android:drawableLeft="@mipmap/grade"
+            android:layout_below="@id/guide_impress_my_listview_btnimp1"
+            android:layout_toRightOf="@id/guide_impress_my_listview_imgbtn_collection"
+            android:id="@+id/guide_impress_my_listview_imgbtn_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:text="6-2"
+            android:id="@+id/guide_impress_my_listview_text_time"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@id/guide_impress_my_listview_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

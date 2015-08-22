@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.xiaoliapp.app.fragments.DiscoverDiscoverFragment"
+        >
+
+    <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/item_discover"/>
+
+    <LinearLayout
+            android:background="#f2f2f2"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            >
+    </LinearLayout>
+
+    <include layout="@layout/item_discover"/>
+
+    <LinearLayout
+            android:background="#f2f2f2"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            >
+    </LinearLayout>
+
+    <include layout="@layout/item_discover"/>
+
+    <LinearLayout
+            android:background="#f2f2f2"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            >
+    </LinearLayout>
+
+    <include layout="@layout/item_discover"/>
+
+    <LinearLayout
+            android:background="#f2f2f2"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            >
+    </LinearLayout>
+
+    <include layout="@layout/item_discover"/>
+
+    <LinearLayout
+            android:background="#f2f2f2"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            >
+    </LinearLayout>
+
+    <include layout="@layout/item_discover"/>
+
+</LinearLayout>

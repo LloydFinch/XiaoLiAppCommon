@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/head"
+            android:id="@+id/guide_grade_my_listview_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:layout_marginLeft="10dp"
+            android:text="阿妹"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/guide_grade_my_listview_item_image"
+            android:id="@+id/guide_grade_my_listview_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="14"
+            android:gravity="center"
+            android:drawableLeft="@mipmap/grade"
+            android:layout_below="@id/guide_grade_my_listview_text_name"
+            android:layout_toRightOf="@id/guide_grade_my_listview_item_image"
+            android:id="@+id/guide_grade_my_listview_imgbtn_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="23"
+            android:gravity="center"
+            android:drawableLeft="@mipmap/grade"
+            android:layout_below="@id/guide_grade_my_listview_text_name"
+            android:layout_toRightOf="@id/guide_grade_my_listview_imgbtn_collection"
+            android:id="@+id/guide_grade_my_listview_imgbtn_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="7月26日 21:00"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/guide_grade_my_listview_text_time"
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@id/guide_grade_my_listview_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="8.6分"
+            android:background="@drawable/shape_impress_btn"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/guide_grade_my_listview_text_grade"
+            android:layout_below="@id/guide_grade_my_listview_text_time"
+
+            android:layout_alignParentRight="true"
+            android:layout_toLeftOf="@id/guide_grade_my_listview_imgbtn_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

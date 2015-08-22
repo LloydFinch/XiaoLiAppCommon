@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.xiaoliapp.app.fragments.GuideImpressmyFragment"
+		>
+
+	<!-- TODO: Update blank fragment layout -->
+	<RadioGroup
+			android:background="#ffffff"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<RadioButton
+				android:layout_margin="10dp"
+				android:layout_gravity="center"
+				android:text="印象(9)"
+				android:gravity="center"
+				android:background="#ffffff"
+				android:button="@null"
+				android:textColor="@color/selector_guide_impress_btn"
+				android:id="@+id/guide_impress_btn_impress"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				/>
+
+		<RadioButton
+				android:gravity="center"
+				android:layout_margin="10dp"
+				android:layout_gravity="center"
+				android:button="@null"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:background="#ffffff"
+				android:text="分数(36)"
+				android:textColor="@color/selector_guide_impress_btn"
+				android:id="@+id/guide_impress_btn_grade"
+				android:layout_height="wrap_content"
+				/>
+
+	</RadioGroup>
+
+	<ListView
+
+			android:id="@+id/guide_impress_my_listview"
+			android:layout_width="match_parent"
+			android:layout_weight="9"
+			android:layout_height="0dp"
+			>
+
+	</ListView>
+
+</LinearLayout>

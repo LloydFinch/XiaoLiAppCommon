@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.xiaoliapp.app.fragments.DiscoverGroupnextFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="#f3f3f3"
+            android:text="你将发送消息给6位朋友"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <org.apmem.tools.layouts.FlowLayout
+            android:background="#f3f3f3"
+            android:id="@+id/flow"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="15dp"
+                android:background="#e2e2e2"
+                android:text="阿猫"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#e2e2e2"
+                android:text="阿狗"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#e2e2e2"
+                android:text="阿三"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#e2e2e2"
+                android:text="阿浩"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#e2e2e2"
+                android:text="阿豪"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#e2e2e2"
+                android:text="阿陆"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </org.apmem.tools.layouts.FlowLayout>
+
+    <LinearLayout
+            android:layout_marginBottom="15dp"
+            android:background="#f3f3f3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_marginLeft="15dp"
+                android:text="发送时间 :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <CheckBox
+                android:text="即时"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <CheckBox
+                android:text="设定时间"
+                android:id="@+id/discover_groupnext_settime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:background="#ffffff"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@mipmap/bless"
+                android:layout_margin="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:text="祝福语模板"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        <TextView
+                android:text=">"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="170dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/shape_radius_search_edittext"
+                android:layout_weight="9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:text="发送"
+                android:background="#df1135"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

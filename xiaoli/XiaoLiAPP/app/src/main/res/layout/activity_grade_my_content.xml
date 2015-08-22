@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.xiaoliapp.app.fragments.GuideGradeMyFragment"
+		>
+
+	<!-- TODO: Update blank fragment layout -->
+	<RadioGroup
+			android:background="#ffffff"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<RadioButton
+				android:layout_margin="15dp"
+				android:button="@null"
+				android:gravity="center"
+				android:text="印象(9)"
+				android:textColor="@color/selector_guide_impress_btn"
+				android:background="#ffffff"
+				android:layout_weight="1"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				/>
+
+		<RadioButton
+				android:layout_margin="15dp"
+				android:button="@null"
+				android:textColor="@color/selector_guide_impress_btn"
+				android:gravity="center"
+				android:background="#ffffff"
+				android:text="打分(8.6)"
+				android:layout_weight="1"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				/>
+	</RadioGroup>
+
+	<LinearLayout
+			android:background="#dedede"
+			android:gravity="center"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			>
+
+		<CheckBox
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+
+		<TextView
+
+				android:background="#dedede"
+				android:text="不显示我的打分"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+	</LinearLayout>
+
+	<ListView
+			android:background="#ffffff"
+			android:id="@+id/guide_grade_my_listview"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			>
+
+	</ListView>
+
+</LinearLayout>

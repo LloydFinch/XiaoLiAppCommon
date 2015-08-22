@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#f2f3f6"
+              tools:context="com.xiaoliapp.app.fragments.ProfileNewwarnFragment"
+		>
+
+	<!-- TODO: Update blank fragment layout -->
+	<LinearLayout
+			android:layout_marginTop="15dp"
+			android:orientation="horizontal"
+			android:background="#fff"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<TextView
+				android:text="标题"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:layout_margin="10dp"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				/>
+
+		<EditText
+				android:hint="请输入相关信息"
+				android:layout_margin="10dp"
+				android:background="@drawable/shape_profile_newwarn"
+				android:layout_width="0dp"
+				android:layout_weight="8"
+				android:layout_height="wrap_content"
+				/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_marginTop="1dp"
+			android:orientation="horizontal"
+			android:background="#fff"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<TextView
+				android:text="日期"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:layout_margin="10dp"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				/>
+
+		<EditText
+				android:hint="请输入相关信息"
+				android:layout_margin="10dp"
+				android:background="@drawable/shape_profile_newwarn"
+				android:layout_width="0dp"
+				android:layout_weight="8"
+				android:layout_height="wrap_content"
+				/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_marginTop="1dp"
+			android:orientation="horizontal"
+			android:background="#fff"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<TextView
+				android:text="重复"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:layout_margin="10dp"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				/>
+
+		<EditText
+				android:hint="请输入相关信息"
+				android:layout_margin="10dp"
+				android:background="@drawable/shape_profile_newwarn"
+				android:layout_width="0dp"
+				android:layout_weight="8"
+				android:layout_height="wrap_content"
+				/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_marginTop="1dp"
+			android:orientation="horizontal"
+			android:background="#fff"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<TextView
+				android:text="提醒"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:layout_margin="10dp"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				/>
+
+		<EditText
+				android:hint="请输入相关信息"
+				android:layout_margin="10dp"
+				android:background="@drawable/shape_profile_newwarn"
+				android:layout_width="0dp"
+				android:layout_weight="8"
+				android:layout_height="wrap_content"
+				/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<TextView
+				android:background="#f2f3f6"
+				android:layout_margin="10dp"
+				android:text="你选择的相关人物是:"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+
+		<TextView
+				android:text="阿三"
+				android:layout_gravity="center"
+				android:background="#e2e2e2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+
+	</LinearLayout>
+
+	<Button
+			android:text="相关人物"
+			android:layout_gravity="center"
+			android:background="@drawable/shape_newwarn_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+
+
+</LinearLayout>

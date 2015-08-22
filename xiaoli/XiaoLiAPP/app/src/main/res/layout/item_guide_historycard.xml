@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="#ffffff"
+              android:layout_marginTop="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:background="#ffffff"
+            android:drawableLeft="@mipmap/card"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="150"
+            android:layout_height="match_parent"/>
+    <ImageView
+            android:layout_margin="10dp"
+            android:background="#de1135"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"/>
+    <LinearLayout
+            android:background="#ffffff"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <TextView
+                android:background="#ffffff"
+                android:text="晓礼网创意婚庆礼品优惠券"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:background="#ffffff"
+                android:text=".卡券规则xxxxxxx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:text=".使用限制xxxxxxx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:background="#ffffff"
+                android:text=".2015-08-01至2015-08-10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <TextView
+            android:background="#ffffff"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="已使用"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+
+</LinearLayout>

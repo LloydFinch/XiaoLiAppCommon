@@ -1,0 +1,247 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#ffffff"
+              tools:context="com.xiaoliapp.app.fragments.GuideTopicdetailFragment"
+		>
+
+	<!-- TODO: Update blank fragment layout -->
+	<ImageView
+			android:layout_marginTop="10dp"
+			android:src="@mipmap/stylephone"
+			android:layout_width="match_parent"
+			android:layout_weight="2"
+			android:layout_height="0dp"
+			/>
+
+	<TextView
+			android:layout_marginTop="10dp"
+			android:background="#ffffff"
+			android:text="上来发到空间大沙发看上了对方手机的开发了手机等方式简单和福建省的开发多少看房东说开了房间多少分多少了看法"
+			android:layout_weight="2"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			/>
+
+	<LinearLayout
+			android:background="#ffffff"
+			android:orientation="horizontal"
+			android:layout_weight="2"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			>
+
+		<LinearLayout
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:layout_height="match_parent"
+				android:layout_width="0dp"
+				>
+
+			<TextView
+					android:background="#ffffff"
+					android:text="分享"
+					android:drawableTop="@mipmap/impress"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+			<TextView
+					android:background="#ffffff"
+					android:text="1092次分享"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+		</LinearLayout>
+
+		<LinearLayout
+				android:background="#ffffff"
+				android:orientation="vertical"
+				android:layout_weight="1"
+				android:gravity="center"
+				android:layout_height="match_parent"
+				android:layout_width="0dp"
+				>
+
+			<TextView
+					android:background="#ffffff"
+					android:text="收藏"
+					android:drawableTop="@mipmap/impress"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+			<TextView
+					android:background="#ffffff"
+					android:text="10780个收藏"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+			android:background="#ececec"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:background="#ffffff"
+			android:orientation="vertical"
+			android:layout_weight="3"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			>
+
+		<LinearLayout
+				android:background="#ffffff"
+				android:orientation="horizontal"
+				android:layout_weight="1"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				>
+
+			<TextView
+					android:background="#ffffff"
+					android:text="最新评论"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+			<TextView
+					android:background="#ffffff"
+					android:text="("
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+			<TextView
+					android:background="#ffffff"
+					android:text="290"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+			<TextView
+					android:background="#ffffff"
+					android:text=")"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+		</LinearLayout>
+
+		<LinearLayout
+				android:layout_marginTop="1dp"
+				android:background="#ffffff"
+				android:orientation="horizontal"
+				android:layout_weight="2"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				>
+
+			<ImageView
+					android:src="@mipmap/head"
+					android:layout_gravity="top"
+					android:layout_weight="1"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					/>
+
+			<LinearLayout
+					android:background="#ffffff"
+					android:orientation="vertical"
+					android:layout_weight="6"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					>
+
+				<TextView
+						android:background="#ffffff"
+						android:text="周末阳光奶茶"
+						android:textColor="#00f"
+						android:layout_weight="1"
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						/>
+
+				<TextView
+						android:background="#ffffff"
+						android:text="上看到就发生空地方建设控"
+						android:layout_weight="1"
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						/>
+			</LinearLayout>
+
+			<LinearLayout
+					android:background="#ffffff"
+					android:orientation="vertical"
+					android:layout_weight="4"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					>
+
+				<TextView
+						android:background="#ffffff"
+						android:text="2015-07-09 15:55"
+						android:layout_weight="1"
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						/>
+
+				<TextView
+						android:background="#ffffff"
+						android:text="回复"
+						android:gravity="right"
+						android:layout_weight="1"
+						android:layout_width="match_parent"
+						android:layout_height="0dp"
+						/>
+			</LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+				android:background="#ffffff"
+				android:orientation="horizontal"
+				android:layout_weight="2"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				>
+
+			<EditText
+
+					android:hint="发表您的评论"
+					android:background="@drawable/shape_radius_back_edittext"
+					android:layout_weight="4"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					/>
+
+			<Button
+
+					android:background="@drawable/shape_impress_btn"
+					android:text="发表"
+					android:layout_weight="1"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					/>
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+			android:background="#ffffff"
+			android:layout_width="match_parent"
+			android:layout_height="5dp"
+			>
+
+	</LinearLayout>
+
+</LinearLayout>
