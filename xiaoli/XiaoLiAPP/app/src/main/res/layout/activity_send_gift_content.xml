@@ -12,7 +12,7 @@
 			>
 
 		<LinearLayout
-				android:id="@+id/activity_impress_line1"
+				android:id="@+id/activity_send_line1"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:orientation="horizontal"
@@ -22,7 +22,8 @@
 				android:paddingBottom="5dp"
 				android:gravity="center_vertical"
 				android:layout_marginTop="10dp"
-		        android:background="#fff"
+				android:background="#fff"
+				android:onClick="onClick"
 				>
 
 			<ImageView
@@ -41,12 +42,14 @@
 					/>
 
 			<TextView
+					android:id="@+id/activity_send_give_impress"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_weight="1"
 					android:textSize="15sp"
 					android:text="先为TA评价印象"
 					android:textColor="#ffd1a0a4"
+					android:onClick="onClick"
 					/>
 
 			<TextView
@@ -58,7 +61,7 @@
 		</LinearLayout>
 
 		<LinearLayout
-				android:id="@+id/activity_impress_line2"
+				android:id="@+id/activity_send_line2"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:orientation="horizontal"
@@ -69,6 +72,7 @@
 				android:gravity="center_vertical"
 				android:layout_marginTop="10dp"
 				android:background="#fff"
+				android:onClick="onClick"
 				>
 
 			<ImageView
@@ -105,7 +109,7 @@
 		</LinearLayout>
 
 		<LinearLayout
-				android:id="@+id/activity_impress_line3"
+				android:id="@+id/activity_send_line3"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:orientation="horizontal"
@@ -116,6 +120,7 @@
 				android:gravity="center_vertical"
 				android:layout_marginTop="10dp"
 				android:background="#fff"
+				android:onClick="onClick"
 				>
 
 			<ImageView
@@ -140,7 +145,7 @@
 					android:textSize="15sp"
 					android:text=""
 					android:textColor="#ffd1a0a4"
-			        android:visibility="invisible"
+					android:visibility="invisible"
 					/>
 
 			<TextView
@@ -150,6 +155,7 @@
 					android:textSize="15sp"
 					/>
 		</LinearLayout>
+
 		<LinearLayout
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
@@ -162,20 +168,24 @@
 				android:layout_marginTop="20dp"
 				android:background="#fff9f9f9"
 				>
+
 			<EditText
-					android:id="@+id/activity_impress_txt_comment"
+					android:id="@+id/activity_send_txt_comment"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
-			        android:layout_weight="1"
-			        android:background="@drawable/shape_radius_back_edittext"
+					android:layout_weight="1"
+					android:background="@drawable/shape_radius_back_edittext"
 					/>
+
 			<TextView
+					android:id="@+id/activity_send_btn_send"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-			        android:background="#0000"
-			        android:text="发表"
-			        android:textColor="#ff82a5d3"
-			        android:layout_marginLeft="20dp"
+					android:background="#0000"
+					android:text="发送"
+					android:textColor="#ff82a5d3"
+					android:layout_marginLeft="20dp"
+					android:onClick="onClick"
 					/>
 		</LinearLayout>
 	</LinearLayout>

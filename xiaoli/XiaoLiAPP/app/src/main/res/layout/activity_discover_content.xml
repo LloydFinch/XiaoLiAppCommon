@@ -4,54 +4,183 @@
               android:layout_height="match_parent"
               android:orientation="vertical"
               tools:context="com.xiaoliapp.app.fragments.DiscoverDiscoverFragment"
-        >
+		>
 
-    <!-- TODO: Update blank fragment layout -->
-    <include layout="@layout/item_discover"/>
+	<!--相册 -->
+	<RelativeLayout
+			android:id="@+id/activity_discover_block_photo"
+			android:onClick="onClick"
+			style="@style/MyLayout"
+			android:background="#ffffffff"
+			>
 
-    <LinearLayout
-            android:background="#f2f2f2"
-            android:layout_width="match_parent"
-            android:layout_height="15dp"
-            >
-    </LinearLayout>
+		<ImageView
+				android:id="@+id/discovery01_image"
+				android:src="@mipmap/discovery_01"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_centerVertical="true"
+				/>
 
-    <include layout="@layout/item_discover"/>
+		<TextView
+				android:id="@+id/discovery01_text"
+				style="@style/MyTextView"
+				android:layout_toRightOf="@id/discovery01_image"
+				android:text="相册"
+				/>
 
-    <LinearLayout
-            android:background="#f2f2f2"
-            android:layout_width="match_parent"
-            android:layout_height="15dp"
-            >
-    </LinearLayout>
+		<ImageView
+				style="@style/MySmallButton"
+				/>
+	</RelativeLayout>
 
-    <include layout="@layout/item_discover"/>
 
-    <LinearLayout
-            android:background="#f2f2f2"
-            android:layout_width="match_parent"
-            android:layout_height="15dp"
-            >
-    </LinearLayout>
+	<!--情礼提醒 -->
+	<RelativeLayout
+			android:id="@+id/activity_discover_block_gift_warn"
+			android:onClick="onClick"
+			style="@style/MyLayout"
+			android:background="#ffffffff"
+			>
 
-    <include layout="@layout/item_discover"/>
+		<ImageView
+				android:id="@+id/discovery02_image"
+				android:src="@mipmap/discovery_02"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_centerVertical="true"
+				/>
 
-    <LinearLayout
-            android:background="#f2f2f2"
-            android:layout_width="match_parent"
-            android:layout_height="15dp"
-            >
-    </LinearLayout>
+		<TextView
+				android:id="@+id/discovery02_text"
+				style="@style/MyTextView"
+				android:layout_toRightOf="@id/discovery02_image"
+				android:text="情礼提醒"
+				/>
 
-    <include layout="@layout/item_discover"/>
+		<ImageView
+				style="@style/MySmallButton"
+				/>
+	</RelativeLayout>
 
-    <LinearLayout
-            android:background="#f2f2f2"
-            android:layout_width="match_parent"
-            android:layout_height="15dp"
-            >
-    </LinearLayout>
+	<!-- 短信模板 -->
+	<RelativeLayout
+			android:id="@+id/activity_discover_block_sms"
+			android:onClick="onClick"
+			style="@style/MyLayout"
+			android:background="#ffffffff"
+			>
 
-    <include layout="@layout/item_discover"/>
+		<ImageView
+				android:id="@+id/discovery03_image"
+				android:src="@mipmap/discovery_03"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_centerVertical="true"
+				/>
+
+		<TextView
+				android:id="@+id/discovery03_text"
+				style="@style/MyTextView"
+				android:layout_toRightOf="@id/discovery03_image"
+				android:text="短信模板"
+				/>
+
+		<ImageView
+				style="@style/MySmallButton"
+				android:background="#ffffffff"
+
+				/>
+	</RelativeLayout>
+
+	<!-- 扫一扫 -->
+	<RelativeLayout
+			android:id="@+id/activity_discover_block_scan"
+			android:onClick="onClick"
+			style="@style/MyLayout"
+			android:background="#ffffffff"
+			>
+
+		<ImageView
+				android:id="@+id/discovery04_image"
+				android:src="@mipmap/discovery04"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_centerVertical="true"
+				/>
+
+		<TextView
+				android:id="@+id/discovery04_text"
+				style="@style/MyTextView"
+				android:layout_toRightOf="@id/discovery04_image"
+				android:text="扫一扫"
+				/>
+
+		<ImageView
+				style="@style/MySmallButton"
+				/>
+	</RelativeLayout>
+
+	<!-- 我的卡券-->
+	<RelativeLayout
+			android:id="@+id/activity_discover_block_my_card"
+			android:onClick="onClick"
+			style="@style/MyLayout"
+			android:background="#ffffffff"
+
+			>
+
+		<ImageView
+				android:id="@+id/discovery05_image"
+				android:src="@mipmap/discovery_05"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_centerVertical="true"
+				/>
+
+		<TextView
+				android:id="@+id/discovery05_text"
+				style="@style/MyTextView"
+				android:layout_toRightOf="@id/discovery05_image"
+				android:text="我的卡券"
+				/>
+
+		<ImageView
+				style="@style/MySmallButton"
+				android:background="#ffffffff"
+
+				/>
+	</RelativeLayout>
+
+	<!-- 关怀话题 -->
+	<RelativeLayout
+			android:id="@+id/activity_discover_block_care_topic"
+			android:onClick="onClick"
+			style="@style/MyLayout"
+			android:background="#ffffffff"
+
+			>
+
+		<ImageView
+				android:id="@+id/discovery06_image"
+				android:src="@mipmap/discovery_06"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_centerVertical="true"
+				/>
+
+		<TextView
+				android:id="@+id/discovery06_text"
+				style="@style/MyTextView"
+				android:layout_toRightOf="@id/discovery06_image"
+				android:text="关怀话题"
+				/>
+
+		<ImageView
+				style="@style/MySmallButton"
+				android:background="#ffffffff"
+
+				/>
+	</RelativeLayout>
 
 </LinearLayout>

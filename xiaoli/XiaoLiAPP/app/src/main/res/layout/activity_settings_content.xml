@@ -3,11 +3,9 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              android:background="#f2f2f2"
-              tools:context="com.xiaoliapp.app.fragments.ProfileSettingsFragment"
+              tools:context="com.xiaoliapp.app.activity.ProfileSettingsActivity"
 		>
 
-	<!-- TODO: Update blank fragment layout -->
 	<RelativeLayout
 			android:layout_marginTop="15dp"
 			android:background="#ffffff"
@@ -17,7 +15,6 @@
 
 		<TextView
 				android:text="安全设置"
-
 				android:layout_margin="15dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
@@ -58,31 +55,6 @@
 				/>
 	</RelativeLayout>
 
-	<RelativeLayout
-			android:layout_marginTop="15dp"
-			android:background="#ffffff"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			>
-
-		<TextView
-
-				android:text="隐私设置"
-				android:layout_margin="15dp"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				/>
-
-		<TextView
-
-				android:layout_margin="15dp"
-				android:text=">"
-				android:layout_alignParentRight="true"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				/>
-	</RelativeLayout>
-
 	<Button
 			android:text="退出登录"
 			android:layout_marginTop="10dp"
@@ -92,6 +64,4 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			/>
-
-
 </LinearLayout>

@@ -82,6 +82,8 @@
 				android:text="关系管理"
 				android:gravity="center"
 				android:button="@null"
+				android:textColor="@color/color_selector"
+
 				/>
 
 		<RadioButton
@@ -93,6 +95,8 @@
 				android:text="情礼攻略"
 				android:gravity="center"
 				android:button="@null"
+				android:textColor="@color/color_selector"
+
 				/>
 
 		<RadioButton
@@ -104,6 +108,8 @@
 				android:text="发现"
 				android:gravity="center"
 				android:button="@null"
+				android:textColor="@color/color_selector"
+
 				/>
 
 		<RadioButton
@@ -115,6 +121,8 @@
 				android:text="我的"
 				android:gravity="center"
 				android:button="@null"
+				android:textColor="@color/color_selector"
+
 				/>
 	</RadioGroup>
 </LinearLayout>

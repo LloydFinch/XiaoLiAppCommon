@@ -34,4 +34,10 @@
 	<string name="title_activity_discover_groupnext">DiscoverGroupnextActivity</string>
 	<string name="title_activity_setting_time">SettingTimeActivity</string>
 	<string name="title_activity_profile_my">ProfileMyActivity</string>
+	<string name="title_activity_secure_setting">SecureSettingActivity</string>
+	<string name="title_activity_bundle_web">BundleWebActivity</string>
+	<string name="title_activity_bundle_weixin">BundleWeixinActivity</string>
+	<string name="title_activity_bundle_mail">BundleMailActivity</string>
+	<string name="title_activity_change_setting">ChangeSettingActivity</string>
+	<string name="title_activity_setting_notify">SettingNotifyActivity</string>
 </resources>

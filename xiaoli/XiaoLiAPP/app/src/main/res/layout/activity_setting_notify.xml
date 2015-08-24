@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+		>
+
+	<RelativeLayout
+			android:layout_marginTop="15dp"
+			android:background="#ffffff"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<TextView
+				android:text="更改手机设置"
+
+				android:layout_margin="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+
+		<TextView
+
+				android:layout_margin="15dp"
+				android:text=">"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+	</RelativeLayout>
+
+	<RelativeLayout
+			android:layout_marginTop="15dp"
+			android:background="#ffffff"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<TextView
+
+				android:text="绑定邮箱"
+				android:layout_margin="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+
+		<TextView
+
+				android:layout_margin="15dp"
+				android:text=">"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+	</RelativeLayout>
+
+	<RelativeLayout
+			android:layout_marginTop="15dp"
+			android:background="#ffffff"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<TextView
+				android:text="修改密码"
+
+				android:layout_margin="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+
+		<TextView
+
+				android:layout_margin="15dp"
+				android:text=">"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+	</RelativeLayout>
+
+	<RelativeLayout
+			android:layout_marginTop="15dp"
+			android:background="#ffffff"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<TextView
+
+				android:text="微博绑定"
+				android:layout_margin="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+
+		<TextView
+
+				android:layout_margin="15dp"
+				android:text=">"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+	</RelativeLayout>
+
+	<RelativeLayout
+			android:layout_marginTop="15dp"
+			android:background="#ffffff"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+
+		<TextView
+				android:text="微信绑定"
+
+				android:layout_margin="15dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+
+		<TextView
+
+				android:layout_margin="15dp"
+				android:text=">"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+	</RelativeLayout>
+
+</LinearLayout>

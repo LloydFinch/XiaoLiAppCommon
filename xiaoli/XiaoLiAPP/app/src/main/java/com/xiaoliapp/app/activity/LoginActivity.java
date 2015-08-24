@@ -86,12 +86,12 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener,
 				register();
 				break;
 			case R.id.login_for_psw:
-				//TODO 忘记密码
-				code = Constants.CHOICE_FORGET;
-				Toast.makeText(this, "未实现", Toast.LENGTH_SHORT).show();
+				//忘记密码
+				Intent intent = new Intent(this, ForgetPSWActivity.class);
+				startActivity(intent);
 				break;
 			case R.id.login_go_look:
-				//TODO 去看看
+				//去看看
 				startActivity(new Intent(this, GuideActivity.class));
 				break;
 			default:
@@ -162,9 +162,6 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener,
 		switch (code) {
 			case Constants.CHOICE_LOGIN:
 				login();
-				break;
-			case Constants.CHOICE_FORGET:
-				//TODO 忘记密码的处理
 				break;
 			default:
 				break;

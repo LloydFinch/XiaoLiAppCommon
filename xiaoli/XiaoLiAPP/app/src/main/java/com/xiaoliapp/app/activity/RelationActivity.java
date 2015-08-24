@@ -76,6 +76,7 @@ public class RelationActivity extends BaseActivity implements ViewPager.OnPageCh
 		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
 
 		switch (checkedId) {
+			//群组与所有的切换
 			case R.id.relation_center_tab_all:
 				position = 0;
 				break;
@@ -132,58 +133,37 @@ public class RelationActivity extends BaseActivity implements ViewPager.OnPageCh
 
 			//关系管理上方功能部分的点击处理
 			case R.id.relation_item_func_impress:
-				intent = new Intent(this, SendGiftActivity.class);
+				intent = new Intent(this, ImpressMyActivity.class);
 				break;
 			case R.id.relation_item_func_ranking:
 				intent = new Intent(this, RankingActivity.class);
 				break;
 			case R.id.relation_item_func_contacts:
-				//TODO 暂时跳转到印象描述界面
-				intent = new Intent(this, ImpressDesActivity.class);
+				intent = new Intent(this, ContactsActivity.class);
 				break;
 			case R.id.relation_item_func_grade:
-				//TODO 暂时跳转到打分界面
-				intent = new Intent(this, GradePayActivity.class);
+				intent = new Intent(this, GradeMyActivity.class);
 				break;
 			case R.id.relation_item_func_relation:
 				intent = new Intent(this, RecommendPlanActivity.class);
 				break;
 			case R.id.relation_item_func_group:
-
-				//跳转相册的隐式意图
-				new AsyncTask<String,Integer,String>(){
-
-					protected String doInBackground(String... params) {
-						String responseContent = null;
-						Intent intent = getIntent();
-						String uid = intent.getStringExtra("uid");
-						if (uid != null) {
-							String path = HttpInterface.FRIENDS;
-							HashMap<String, String> param = new HashMap<String, String>();
-							param.put("uid", uid);
-							try {
-								responseContent = HttpPostUtils.sendByPost(param, path, "utf-8");
-							}
-							catch (IOException e) {
-								e.printStackTrace();
-							}
-						}
-						return responseContent;
-					}
-
-					protected void onPostExecute(String s) {
-						MyLog.d("Contacts", s);
-					}
-				}.execute();
-//				intent = new Intent();
-//				intent.setType("image/*");
-//				intent.setAction(Intent.ACTION_GET_CONTENT);
+				//TODO 群发助手缺少,暂时跳转到群发下一步
+				intent = new Intent(this, GroupSendNextActivity.class);
 				break;
 
 			//ListView/ExpandableListView的item的点击处理
 			case R.id.relation_item_head:
-				//TODO 点击头像的处理
-				showDialog();
+				intent = new Intent(this, ProfileActivity.class);
+				break;
+			case R.id.relation_item_gifts:
+				intent = new Intent(this, SendGiftActivity.class);
+				break;
+			case R.id.relation_item_impress:
+				intent = new Intent(this, ImpressActivity.class);
+				break;
+			case R.id.relation_item_grade:
+				intent = new Intent(this, GradePayActivity.class);
 				break;
 
 			//对话框的按钮处理
